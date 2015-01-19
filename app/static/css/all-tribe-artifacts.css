@@ -1,0 +1,14 @@
+div.chevron{
+	text-align: center;
+}
+
+span.chevron{
+	padding-top: 90%;
+	font-size: 1.5em;
+}
+
+div.category-divider{
+	border-bottom-color: #E5E5E5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}

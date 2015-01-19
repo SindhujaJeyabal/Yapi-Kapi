@@ -1,0 +1,110 @@
+.navbar-inverse .navbar-brand {
+	color: #FFF;
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.tribe-sidebar {
+/*	position: fixed;
+	top: 81px;
+	bottom: 0;
+	right: 0;*/
+	margin-top: 81px;
+	z-index: 1000;
+	display: block;
+	padding: 20px 50px 0px 50px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #00182f;
+	color: white;
+}
+
+.tribe-sidebar h1 {
+	font-size: 30px;
+	font-weight: 100;
+}
+
+.tribe-sidebar h2 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+	padding-top: 5px;
+}
+
+.tribe-regions {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+	.tribe-regions:last-of-type {
+		margin-bottom: 30px;
+	}
+
+.tribe-region-thumb {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+}
+
+.region-name {
+	margin-top: 15px;
+}
+
+.navbar-form {
+	margin-top: 10px;
+	padding: 0px;
+}
+
+	.navbar-form .form-control {
+		width: 300px; /* Should probably convert this to % or media queries */
+		margin-right: 5px;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+
+	@media (max-width: 1499px) {
+		.btn-submit {
+			margin-top: 10px;
+		}
+	}
+
+.btn {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+
+.thumbnail{
+	background-color: #D3D3D3;
+	height: 170px;
+}
+
+body { padding-top: 81px; }
+
+
+.addtosatchel{
+	position: absolute;
+	right: 15px;
+	top: 0px;
+	height: 24px;
+	width: 35px;
+	background-color: black;
+	opacity: 0.7;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 3px;
+	z-index: 999;
+}
+
+.breadcrumb{
+	background-color: white;
+	text-transform: uppercase;
+}
